@@ -9,8 +9,9 @@ public class Projectile extends GameObject {
 
 
     public Projectile(int x, int y, int dir) {
-        // TODO: set xOffset to (int) (-3 * Game.SCALE)
-        // TODO: set yOffset to (int) (5 * Game.SCALE)
+        // TODO: call super passing in x, y, and objType
+        // TODO: make an int called xOffset and set to to (int) (-3 * Game.SCALE)
+        // TODO: make an int called yOffset and set to (int) (5 * Game.SCALE)
 
         // if dir is 0
         // TODO: set xOffset to (int)  (29 * Game.SCALE)
