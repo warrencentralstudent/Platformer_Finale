@@ -2,14 +2,13 @@ package objects;
 
 import java.awt.geom.Rectangle2D;
 
-public class Projectile extends GameObject {
+public class Projectile {
     private Rectangle2D.Float hitbox;
     private int dir;
     private boolean active = true;
 
 
-    public Projectile(int x, int y, int objType) {
-        // TODO: call super passing in x, y, and objType
+    public Projectile(int x, int y, int dir) {
         // TODO: make an int called xOffset and set to to (int) (-3 * Game.SCALE)
         // TODO: make an int called yOffset and set to (int) (5 * Game.SCALE)
 
