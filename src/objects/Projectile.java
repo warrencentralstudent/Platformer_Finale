@@ -8,7 +8,7 @@ public class Projectile extends GameObject {
     private boolean active = true;
 
 
-    public Projectile(int x, int y, int dir) {
+    public Projectile(int x, int y, int objType) {
         // TODO: call super passing in x, y, and objType
         // TODO: make an int called xOffset and set to to (int) (-3 * Game.SCALE)
         // TODO: make an int called yOffset and set to (int) (5 * Game.SCALE)
