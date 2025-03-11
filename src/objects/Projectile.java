@@ -39,6 +39,6 @@ public class Projectile extends GameObject {
     }
 
     public boolean isActive(){
-        // TODO: isActive
+        // TODO: active
     }
 }
