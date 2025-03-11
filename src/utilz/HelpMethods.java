@@ -206,6 +206,7 @@ public class HelpMethods {
         // TODO: if (value == SPIKE) then
         // TODO: call list.add passing in a new Spike(i * Game.TILES_SIZE, j * Game.TILES_SIZE, SPIKE));
         // TODO: end of both for loops
+        return list;
     }
 
     public static ArrayList<Cannon> GetCannons(BufferedImage img) {
@@ -217,6 +218,7 @@ public class HelpMethods {
         // TODO: if (value == CANNON_LEFT || value == CANNON_RIGHT) then
         // TODO: call list.add passing in a new Cannon(i * Game.TILES_SIZE, j * Game.TILES_SIZE, value));
         // TODO: end of both for loops
+        return list;
     }
 
 }
