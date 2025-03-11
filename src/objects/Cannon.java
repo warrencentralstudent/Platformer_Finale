@@ -2,6 +2,8 @@ package objects;
 
 public class Cannon extends GameObject {
 
+    private int tileY;
+
     public Cannon(int x, int y, int objType) {
         // TODO: call super passing in x, y, objType
         // TODO: set tileY to y / Game.TILES_SIZE
