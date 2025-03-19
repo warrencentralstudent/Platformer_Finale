@@ -6,7 +6,7 @@ public class Potion extends GameObject {
     private int maxHoverOffset, hoverDir = 1;
 
     public Potion(int x, int y, int objType) {
-        // TODO: call super passing in x, y, and objType
+        super(x, y, objType);
         // TODO: set doAnimation to true
 
         // TODO: call initHitbox passing in 7 and 14

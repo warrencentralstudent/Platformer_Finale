@@ -31,6 +31,7 @@ public class Projectile {
 
     public Rectangle2D.Float getHitbox() {
         // TODO: return the hitbox
+        return null; // TODO: remove when done.
     }
 
     public void setActive(boolean active){
@@ -39,5 +40,6 @@ public class Projectile {
 
     public boolean isActive(){
         // TODO: active
+        return false; // TODO: remove when done.
     }
 }

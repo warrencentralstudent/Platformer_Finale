@@ -63,14 +63,17 @@ public class GameObject {
 
     public int getObjType(){
         // TODO: return objType
+        return 0; // TODO: remove when done
     }
 
     public Rectangle2D.Float getHitbox(){
         // TODO: return hitbox
+        return null; // TODO: remove when done
     }
 
     public boolean isActive(){
         // TODO: return active
+        return false; // TODO: remove when done
     }
 
     public void setActive(boolean active){
@@ -83,17 +86,21 @@ public class GameObject {
 
     public int getxDrawOffset(){
         // TODO: return xDrawOffset
+        return 0; // TODO: remove when done
     }
 
     public int getyDrawOffset(){
         // TODO: return yDrawOffset
+        return 0; // TODO: remove when done
     }
 
     public int getAniIndex(){
         // TODO: return aniIndex
+        return 0; // TODO: remove when done
     }
 
     public int getAniTick(){
         // TODO: return aniTick
+        return 0; // TODO: remove when done
     }
 }

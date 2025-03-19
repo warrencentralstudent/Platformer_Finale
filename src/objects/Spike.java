@@ -2,7 +2,7 @@ package objects;
 
 public class Spike extends GameObject{
     public Spike(int x, int y, int objType) {
-        // TODO: call super passing in x, y, and objType
+        super(x, y, objType);
 
         // TODO: call initHitbox passing in 32, and 16
         // TODO: set xDrawOffset to 0

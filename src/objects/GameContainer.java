@@ -5,6 +5,7 @@ package objects;
 public class GameContainer extends GameObject{
 
     public GameContainer(int x, int y, int objType) {
+        super(x, y, objType);
         // TODO: call super passing in x, y, objType
         // TODO: call createHitbox()
     }

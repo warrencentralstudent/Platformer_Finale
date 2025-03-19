@@ -49,14 +49,15 @@ public class LoadSave {
             }
         }
 
-        return img;
+        // TODO: return img;
+        return null; // TODO: remove when done
     }
 
     public static BufferedImage[] GetAllLevels() {
         // TODO: create a URL named url and assign LoadSave.class.getResource("/lvls") to it.
         // TODO: create a File named file and assign null to it.
 
-        try{
+        try {
             // TODO: assign newFile(url.toURI()) to file
         } catch (URISyntaxException e) {
             // TODO: call e.printStackTrace()
@@ -70,7 +71,7 @@ public class LoadSave {
                 // TODO: if files[j].getName().equals((i + 1) + ".png") then set 
                 // TODO: (cont.) filesSorted[i] to files[j]
             }
-        
+
         // TODO: create a BufferedImage array named imgs and initialize to a new BufferedImage passing in the length of filesSorted
 
         for (int i = 0; i < imgs.length; i++)
@@ -80,7 +81,8 @@ public class LoadSave {
                 // TODO: call e.printStackTrace();
             }
 
-        return imgs;
+        // TODO: return imgs;
+        return null; // TODO: remove when done
     }
 
 }

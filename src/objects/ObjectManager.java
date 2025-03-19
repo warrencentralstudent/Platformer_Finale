@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import entities.Player;
 import gamestates.Playing;
 import levels.Level;
-import main.Game;
 import utilz.LoadSave;
 import static utilz.Constants.ObjectConstants.*;
 import static utilz.HelpMethods.CanCannonSeePlayer;
@@ -161,6 +160,7 @@ public class ObjectManager {
     private boolean isPlayerInRange(Cannon c, Player player) {
         // TODO: assign (int) Math.abs(player.getHitbox().x - c.getHitbox().x) to an int named absValue
         // TODO: return whether or not absValue is less than or equal to Game.TILES_SIZE * 5
+        return false; // TODO: remove when done.
     }
 
     private boolean isPlayerInfrontOfCannon(Cannon c, Player player) {
@@ -170,27 +170,31 @@ public class ObjectManager {
         // end of nested if
         // for the else if check c.getHitbox.x less than player's getHitbox x, then return true
         // for the else return false
+        return false; // TODO: remove when done
     }
 
     private void updateCannons(int[][] lvlData, Player player) {
-        // TODO: a for Cannon c: cannons loop followed by 5 nested ifs each doing nothing but calling
-        // another if statement until the deepest one call's c.setAnimation() passing in true.
-        // TODO: 1st if check !c.doAnimation
-        // TODO: 2nd if check c.getTileY() is equal to player.getTileY
-        // TODO: 3rd if check isPlayerInRange passing in c and player
-        // TODO: 4th if check isPlayerInfrontOfCannon passing in c and player
-        // TODO: last if check CanCannonSeePlayer passing in lvlData, player.getHitbox, c.getHitbox, and c.getTileY
-        // TODO:  sigh finally when you've reached this level of the underworld set call c.setAnimation passing in true.
-        // end of if
-        // end of if
-        // end of if
-        // end of if
-        // TODO: gotcha call c.update
-          if (c.getAniIndex() == 4 && c.getAniTick() == 0){
-              shootCannon(c);
-          }
-        // end of if
-        // end of for
+        for(Cannon c : cannons){
+            // TODO: a for Cannon c: cannons loop followed by 5 nested ifs each doing nothing but calling
+            // another if statement until the deepest one call's c.setAnimation() passing in true.
+            // TODO: 1st if check !c.doAnimation
+            // TODO: 2nd if check c.getTileY() is equal to player.getTileY
+            // TODO: 3rd if check isPlayerInRange passing in c and player
+            // TODO: 4th if check isPlayerInfrontOfCannon passing in c and player
+            // TODO: last if check CanCannonSeePlayer passing in lvlData, player.getHitbox, c.getHitbox, and c.getTileY
+            // TODO:  sigh finally when you've reached this level of the underworld set call c.setAnimation passing in true.
+            // end of if
+            // end of if
+            // end of if
+            // end of if
+            // TODO: gotcha call c.update
+            if (c.getAniIndex() == 4 && c.getAniTick() == 0){
+                shootCannon(c);
+            }
+            // end of if
+            // end of for
+        }
+
 
     }
 
