@@ -103,13 +103,13 @@ public class MouseInputs implements MouseListener, MouseMotionListener {
 
 	@Override
 	public void mouseEntered(MouseEvent e) {
-		// TODO Auto-generated method stub
+		// TODO:  this method must exist, but we aren't putting anything here.
 
 	}
 
 	@Override
 	public void mouseExited(MouseEvent e) {
-
+		// TODO:  this method must exist, but we aren't putting anything here.
 	}
 
 }
